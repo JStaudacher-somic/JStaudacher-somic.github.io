@@ -1,0 +1,7 @@
+# Example robots.txt
+User-agent: *            # 1️⃣ selector: which bot(s) does this block apply to?
+Disallow: /private/       # 2️⃣ directive: disallow everything under /private
+Disallow: /tmp
+Allow: /private/public-press-release.pdf
+Crawl-delay: 10          # be polite: max one fetch every 10 s
+Sitemap: https://example.com/sitemap.xml
